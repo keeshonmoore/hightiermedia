@@ -47,14 +47,14 @@ export default function MVGrid() {
             />
           ))}
         </div>
-        <div className="mt-8 flex justify-center">
+        {/* <div className="mt-8 flex justify-center">
           <Button
             className="rounded-xl bg-bh-orange text-white hover:bg-bh-orange-light shadow-apple transition-all duration-200"
             asChild
           >
             <a href="/vault" aria-label="View all videos">View All</a>
           </Button>
-        </div>
+        </div> */}
       </div>
     </section>
   );
